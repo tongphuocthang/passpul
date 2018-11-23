@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<!-- Required Settings -->
+	<test name="TC_Before">
+		<classes>
+			<class name="com.project.c.b" />
+		</classes>
+	</test>
+
+	<!-- All TCs to be run -->
+	<test name='TC1'>
+		<parameter name='file' value='DCM_CreateOffer.xlsm' />
+		<parameter name='browser' value='Chrome' />
+		<classes>
+			<class name='com.project.c.c' />
+		</classes>
+	</test>
+
+	<!-- Optional – Write Test Sumary Report -->
+	<test name="TC_After">
+		<classes>
+			<class name="com.project.c.a" />
+		</classes>
+	</test>
+
+</suite>

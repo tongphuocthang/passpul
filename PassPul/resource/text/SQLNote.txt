@@ -1,0 +1,6 @@
+CAST(sr.ITM_ID__c AS BIGINT)
+CAST(sr.EXT_RETL_AMT__c as decimal(9,2))
+format(SHP_DT__c, 'MM/dd/yyyy')
+format(sr.SHP_DT__c, 'M/d/yyyy')
+(CASE sr.RQST_APPR_CD__c WHEN 'Pending' THEN 'Pend' ELSE sr.RQST_APPR_CD__c END) AS Approval
+ISNULL(sr.WHSE_LOC__c,'--') AS Whse
