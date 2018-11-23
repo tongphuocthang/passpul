@@ -11,15 +11,7 @@
 
 	<!-- All TCs to be run -->
 	<test name='TC1'>
-		<parameter name='file' value='DCM_CreateOffer.xlsm' />
-		<parameter name='browser' value='Chrome' />
-		<classes>
-			<class name='com.project.c.c' />
-		</classes>
-	</test>
-	
-		<test name='TC2'>
-		<parameter name='file' value='DCM_CreateOffer.xlsm' />
+		<parameter name='file' value='SampleProject_TC_WS_APIKey.xlsm' />
 		<parameter name='browser' value='Chrome' />
 		<classes>
 			<class name='com.project.c.c' />

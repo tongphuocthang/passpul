@@ -1,2 +1,2 @@
 
-PassPul\resource\testcase\result\20181121_162139\
+PassPul\resource\testcase\result\20181123_150423\
