@@ -17,6 +17,14 @@
 			<class name='com.project.c.c' />
 		</classes>
 	</test>
+	
+		<test name='TC2'>
+		<parameter name='file' value='DCM_CreateOffer.xlsm' />
+		<parameter name='browser' value='Chrome' />
+		<classes>
+			<class name='com.project.c.c' />
+		</classes>
+	</test>
 
 	<!-- Optional – Write Test Sumary Report -->
 	<test name="TC_After">
